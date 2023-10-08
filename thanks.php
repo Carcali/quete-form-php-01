@@ -2,10 +2,10 @@
 
 <?php
 
-$prenom = $_POST['prenom'];
-$nom = $_POST['nom'];
-$courriel = $_POST['courriel'];
-$phone = $_POST['phone'];
+$prenom = $_POST['user_lastname'];
+$nom = $_POST['user_firstname'];
+$courriel = $_POST['user_email'];
+$phone = $_POST['user_phone'];
 $subject = $_POST['subject'];
 ?>
 
